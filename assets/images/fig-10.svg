@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<rect width="960" height="640" fill="#f4f6f9"/>
+<g font-family="Noto Sans CJK SC, sans-serif">
+<text x="42" y="55" font-size="17" fill="#126d79">证明有据 / 图 10</text>
+<text x="42" y="105" font-size="31" font-weight="bold" fill="#152c46">自动化提出证据，内核检查证据</text>
+<text x="42" y="143" font-size="19" fill="#536579">库中的定理可以减少重复构造</text>
+<rect x="40" y="176" width="880" height="124" rx="14" fill="white" stroke="#d4dde8"/>
+<rect x="40" y="176" width="8" height="124" rx="3" fill="#13818b"/>
+<text x="66" y="205" font-size="17" fill="#13727c">01 / 定位问题</text>
+<text x="66" y="242" font-size="24" fill="#162e47">先看目标形状、类型、可用假设</text>
+<text x="66" y="277" font-size="18" fill="#56687a">搜索等式、排序或成员关系；不要只猜定理名字。</text>
+<path d="M480 303 v14 m-5 -5 l5 5 5 -5" fill="none" stroke="#13818b" stroke-width="2"/>
+<rect x="40" y="321" width="880" height="124" rx="14" fill="white" stroke="#d4dde8"/>
+<rect x="40" y="321" width="8" height="124" rx="3" fill="#13818b"/>
+<text x="66" y="350" font-size="17" fill="#13727c">02 / 调用库或策略</text>
+<text x="66" y="387" font-size="24" fill="#162e47">匹配定理参数，生成证明项</text>
+<text x="66" y="422" font-size="18" fill="#56687a">化简集合与导入会影响自动化行为。</text>
+<path d="M480 448 v14 m-5 -5 l5 5 5 -5" fill="none" stroke="#13818b" stroke-width="2"/>
+<rect x="40" y="466" width="880" height="124" rx="14" fill="white" stroke="#d4dde8"/>
+<rect x="40" y="466" width="8" height="124" rx="3" fill="#13818b"/>
+<text x="66" y="495" font-size="17" fill="#13727c">03 / 检查与维护</text>
+<text x="66" y="532" font-size="24" fill="#162e47">内核检查；回看假设及依赖</text>
+<text x="66" y="567" font-size="18" fill="#56687a">策略成功不是对自然语言问题或现实系统的包保。</text>
+</g></svg>

@@ -1,0 +1,10 @@
+body { font-family: sans-serif; line-height:1.8; margin: 5%; color:#203248; }
+h1,h2,h3 { line-height:1.4; color:#126d79; }
+h1 { break-before:page; }
+p { text-align:justify; }
+img { max-width:100%; height:auto; display:block; margin:1.5em auto; }
+pre { white-space:pre-wrap; overflow-wrap:anywhere; line-height:1.5; font-size:0.88em; padding:0.8em; background:#f0f4f7; }
+code { font-family:monospace; }
+table { border-collapse:collapse; font-size:0.88em; width:100%; }
+th,td { border-bottom:1px solid #b9c8d6; padding:0.4em; vertical-align:top; }
+a { color:#126d79; }

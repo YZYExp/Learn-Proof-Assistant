@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640"><rect width="960" height="640" fill="#f4f6f9"/><g font-family="Noto Sans CJK SC, sans-serif">
+<text x="40" y="64" font-size="30" font-weight="bold" fill="#152c46">图 05 / 把合取证据拆开，再按相反顺序组合</text>
+<text x="40" y="105" font-size="20" fill="#536579">线条展示证据的来源；上下两份证据始终保留各自类型。</text>
+<rect x="60" y="165" width="210" height="90" rx="12" fill="white" stroke="#13818b" stroke-width="3"/><text x="165.0" y="218.0" text-anchor="middle" font-size="25" fill="#13818b">h : P ∧ Q</text>
+<rect x="375" y="165" width="190" height="90" rx="12" fill="white" stroke="#13818b" stroke-width="3"/><text x="470.0" y="218.0" text-anchor="middle" font-size="25" fill="#13818b">p : P</text>
+<rect x="375" y="340" width="190" height="90" rx="12" fill="white" stroke="#b25b35" stroke-width="3"/><text x="470.0" y="393.0" text-anchor="middle" font-size="25" fill="#b25b35">q : Q</text>
+<rect x="680" y="340" width="210" height="90" rx="12" fill="white" stroke="#13818b" stroke-width="3"/><text x="785.0" y="393.0" text-anchor="middle" font-size="25" fill="#13818b">Q ∧ P</text>
+<path d="M270 190 L375 190" stroke="#8394a5" stroke-width="3" fill="none"/>
+<path d="M270 225 L375 385" stroke="#8394a5" stroke-width="3" fill="none"/>
+<path d="M565 210 L680 405" stroke="#8394a5" stroke-width="3" fill="none"/>
+<path d="M565 385 L680 365" stroke="#8394a5" stroke-width="3" fill="none"/>
+<text x="310" y="155" font-size="18" fill="#354d62">左分量</text>
+<text x="300" y="330" font-size="18" fill="#354d62">右分量</text>
+<text x="60" y="510" font-size="24" fill="#354d62">Lean：And.intro h.right h.left</text>
+<text x="60" y="558" font-size="22" fill="#354d62">Rocq：先 destruct h，再 split；依次给出 Q 和 P。</text>
+</g></svg>

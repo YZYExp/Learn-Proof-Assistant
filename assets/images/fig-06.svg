@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<rect width="960" height="640" fill="#f4f6f9"/>
+<g font-family="Noto Sans CJK SC, sans-serif">
+<text x="42" y="55" font-size="17" fill="#126d79">证明有据 / 图 06</text>
+<text x="42" y="105" font-size="31" font-weight="bold" fill="#152c46">重写有方向，也有位置</text>
+<text x="42" y="143" font-size="19" fill="#536579">已知 h : a = b；目标 f a = f b</text>
+<rect x="40" y="176" width="880" height="124" rx="14" fill="white" stroke="#d4dde8"/>
+<rect x="40" y="176" width="8" height="124" rx="3" fill="#13818b"/>
+<text x="66" y="205" font-size="17" fill="#13727c">01 / 已有等式</text>
+<text x="66" y="242" font-size="24" fill="#162e47">a = b</text>
+<text x="66" y="277" font-size="18" fill="#56687a">h 是相等的证据；不是命令式变量赋值。</text>
+<path d="M480 303 v14 m-5 -5 l5 5 5 -5" fill="none" stroke="#13818b" stroke-width="2"/>
+<rect x="40" y="321" width="880" height="124" rx="14" fill="white" stroke="#d4dde8"/>
+<rect x="40" y="321" width="8" height="124" rx="3" fill="#13818b"/>
+<text x="66" y="350" font-size="17" fill="#13727c">02 / 替换目标中的 a</text>
+<text x="66" y="387" font-size="24" fill="#162e47">f a = f b   →   f b = f b</text>
+<text x="66" y="422" font-size="18" fill="#56687a">此处沿 h 从左到右替换；反向重写需明确指定。</text>
+<path d="M480 448 v14 m-5 -5 l5 5 5 -5" fill="none" stroke="#13818b" stroke-width="2"/>
+<rect x="40" y="466" width="880" height="124" rx="14" fill="white" stroke="#d4dde8"/>
+<rect x="40" y="466" width="8" height="124" rx="3" fill="#13818b"/>
+<text x="66" y="495" font-size="17" fill="#13727c">03 / 自反性关闭</text>
+<text x="66" y="532" font-size="24" fill="#162e47">f b 与 f b 相同</text>
+<text x="66" y="567" font-size="18" fill="#56687a">两边可定义相等时可用 rfl / reflexivity。</text>
+</g></svg>

@@ -1,0 +1,9 @@
+build/
+*.olean
+*.ilean
+*.vo
+*.vok
+*.vos
+*.glob
+.lake/
+__pycache__/

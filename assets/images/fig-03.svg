@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<rect width="960" height="640" fill="#f4f6f9"/>
+<g font-family="Noto Sans CJK SC, sans-serif">
+<text x="42" y="55" font-size="17" fill="#126d79">证明有据 / 图 03</text>
+<text x="42" y="105" font-size="31" font-weight="bold" fill="#152c46">证明状态的逐步变化</text>
+<text x="42" y="143" font-size="19" fill="#536579">例：从 P ∧ Q 证明 Q ∧ P</text>
+<rect x="40" y="176" width="880" height="124" rx="14" fill="white" stroke="#d4dde8"/>
+<rect x="40" y="176" width="8" height="124" rx="3" fill="#13818b"/>
+<text x="66" y="205" font-size="17" fill="#13727c">01 / 起点</text>
+<text x="66" y="242" font-size="24" fill="#162e47">h : P ∧ Q  ⊢  Q ∧ P</text>
+<text x="66" y="277" font-size="18" fill="#56687a">左侧是可用假设，右侧是当前目标。</text>
+<path d="M480 303 v14 m-5 -5 l5 5 5 -5" fill="none" stroke="#13818b" stroke-width="2"/>
+<rect x="40" y="321" width="880" height="124" rx="14" fill="white" stroke="#d4dde8"/>
+<rect x="40" y="321" width="8" height="124" rx="3" fill="#13818b"/>
+<text x="66" y="350" font-size="17" fill="#13727c">02 / 拆目标</text>
+<text x="66" y="387" font-size="24" fill="#162e47">目标一：Q       目标二：P</text>
+<text x="66" y="422" font-size="18" fill="#56687a">构造合取需要两份证据；两个子目标都要完成。</text>
+<path d="M480 448 v14 m-5 -5 l5 5 5 -5" fill="none" stroke="#13818b" stroke-width="2"/>
+<rect x="40" y="466" width="880" height="124" rx="14" fill="white" stroke="#d4dde8"/>
+<rect x="40" y="466" width="8" height="124" rx="3" fill="#13818b"/>
+<text x="66" y="495" font-size="17" fill="#13727c">03 / 使用假设</text>
+<text x="66" y="532" font-size="24" fill="#162e47">h 的右分量证明 Q；左分量证明 P</text>
+<text x="66" y="567" font-size="18" fill="#56687a">所有目标关闭后，完整证明项还须被内核接受。</text>
+</g></svg>

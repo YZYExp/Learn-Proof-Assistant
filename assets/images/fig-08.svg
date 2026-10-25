@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640"><rect width="960" height="640" fill="#f4f6f9"/><g font-family="Noto Sans CJK SC, sans-serif">
+<text x="40" y="64" font-size="30" font-weight="bold" fill="#152c46">图 08 / 追加保留左列表的头，递归处理尾部</text>
+<text x="40" y="105" font-size="20" fill="#536579">例：[a, b] ++ [c] = [a, b, c]；长度性质要推广到任意列表。</text>
+<rect x="70" y="170" width="110" height="70" rx="12" fill="white" stroke="#13818b" stroke-width="3"/><text x="125.0" y="213.0" text-anchor="middle" font-size="25" fill="#13818b">a</text>
+<rect x="215" y="170" width="110" height="70" rx="12" fill="white" stroke="#13818b" stroke-width="3"/><text x="270.0" y="213.0" text-anchor="middle" font-size="25" fill="#13818b">b</text>
+<rect x="360" y="170" width="110" height="70" rx="12" fill="white" stroke="#13818b" stroke-width="3"/><text x="415.0" y="213.0" text-anchor="middle" font-size="25" fill="#13818b">+</text>
+<rect x="505" y="170" width="110" height="70" rx="12" fill="white" stroke="#b25b35" stroke-width="3"/><text x="560.0" y="213.0" text-anchor="middle" font-size="25" fill="#b25b35">c</text>
+<rect x="70" y="290" width="110" height="70" rx="12" fill="white" stroke="#13818b" stroke-width="3"/><text x="125.0" y="333.0" text-anchor="middle" font-size="25" fill="#13818b">a</text>
+<rect x="215" y="290" width="110" height="70" rx="12" fill="white" stroke="#13818b" stroke-width="3"/><text x="270.0" y="333.0" text-anchor="middle" font-size="25" fill="#13818b">b</text>
+<rect x="360" y="290" width="110" height="70" rx="12" fill="white" stroke="#b25b35" stroke-width="3"/><text x="415.0" y="333.0" text-anchor="middle" font-size="25" fill="#b25b35">c</text>
+<text x="680" y="215" font-size="28" fill="#354d62">2 + 1</text>
+<text x="680" y="335" font-size="28" fill="#354d62">= 3</text>
+<path d="M350 245 L350 280" stroke="#8394a5" stroke-width="3" fill="none"/>
+<rect x="65" y="415" width="830" height="80" rx="12" fill="white" stroke="#13818b" stroke-width="3"/><text x="480.0" y="463.0" text-anchor="middle" font-size="25" fill="#13818b">length (xs ++ ys) = length xs + length ys</text>
+<text x="65" y="545" font-size="23" fill="#354d62">归纳对象：xs；基础是 []，步骤是 x :: xs。</text>
+<text x="65" y="590" font-size="23" fill="#354d62">头元素贡献 1；尾部长度由归纳假设连接到等式。</text>
+</g></svg>

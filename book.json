@@ -1,0 +1,79 @@
+{
+  "title": "证明有据：Lean 与 Rocq 图解入门",
+  "language": "zh-CN",
+  "description": "以共同问题连接逻辑、交互式证明和程序验证的中文入门书",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "为什么还要证明",
+      "source": "chapters/01-why-proof.md",
+      "slug": "why-proof"
+    },
+    {
+      "id": "ch02",
+      "title": "命题、类型与证据",
+      "source": "chapters/02-propositions-types.md",
+      "slug": "propositions-types"
+    },
+    {
+      "id": "ch03",
+      "title": "看懂证明状态",
+      "source": "chapters/03-proof-state.md",
+      "slug": "proof-state"
+    },
+    {
+      "id": "ch04",
+      "title": "建立工作环境",
+      "source": "chapters/04-environment.md",
+      "slug": "environment"
+    },
+    {
+      "id": "ch05",
+      "title": "第一个双语言证明",
+      "source": "chapters/05-first-proofs.md",
+      "slug": "first-proofs"
+    },
+    {
+      "id": "ch06",
+      "title": "等式与重写",
+      "source": "chapters/06-equality.md",
+      "slug": "equality"
+    },
+    {
+      "id": "ch07",
+      "title": "自然数与归纳",
+      "source": "chapters/07-induction.md",
+      "slug": "induction"
+    },
+    {
+      "id": "ch08",
+      "title": "列表与程序性质",
+      "source": "chapters/08-lists.md",
+      "slug": "lists"
+    },
+    {
+      "id": "ch09",
+      "title": "从函数到规格",
+      "source": "chapters/09-specification.md",
+      "slug": "specification"
+    },
+    {
+      "id": "ch10",
+      "title": "搜索、自动化与库",
+      "source": "chapters/10-libraries-automation.md",
+      "slug": "libraries-automation"
+    },
+    {
+      "id": "ch11",
+      "title": "真实项目与信任",
+      "source": "chapters/11-real-projects.md",
+      "slug": "real-projects"
+    },
+    {
+      "id": "ch12",
+      "title": "证明工程与学习路线",
+      "source": "chapters/12-proof-engineering.md",
+      "slug": "proof-engineering"
+    }
+  ]
+}
