@@ -32,7 +32,7 @@ python3 scripts/build.py
 
 生成 `build/Lean-Rocq-Complete.md` 与 `build/Lean-Rocq.epub`，不会生成网站。EPUB 包含目录、全部正文与内嵌图解。分章 Markdown 引用的 SVG 在 `assets/images/`；图是原创教学示意，不是工具界面截图。
 
-`book.json` 维护章节顺序、路径和稳定标识，后续主页可直接复用；`site/` 保留为未来网站源目录约定，本次未创建网站。
+`book.json` 维护章节顺序、路径和稳定标识，后续主页可直接复用；`site/` 存放阅读站样式与搜索脚本；在线站由同一份分章 Markdown 生成。
 
 ## 检查状态
 
@@ -41,3 +41,17 @@ python3 scripts/build.py
 ## 工程与来源
 
 各章在知识点附近列出来源，来源总索引见 [references/README.md](references/README.md)。Git 根提交仅含空 README，后续逐步提交规划、正文与交付工程；远端仓库：[YZYExp/Learn-Proof-Assistant](https://github.com/YZYExp/Learn-Proof-Assistant)。
+
+## 在线阅读与 Pages CI
+
+阅读站部署目标：https://yzyexp.github.io/Learn-Proof-Assistant/
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r site/requirements.txt
+.venv/bin/python scripts/build_site.py --base-path /Learn-Proof-Assistant/
+```
+
+输出为 `build/site`，含主页、12章、附录、资料索引、检查记录及已有 EPUB 下载。构建会校验本地链接、图片和章节锚点。支持手机目录与全文搜索。
+
+`.github/workflows/pages.yml` 在 main 相关内容更新时自动构建并部署；PR 仅构建检查；也可手动触发。Pages 的 Source 需设为 **GitHub Actions**。网页只依赖 Python 与 Markdown，不运行 Pandoc、字体安装或 Lean/Rocq 编译；EPUB 使用已提交的阅读版，更新正文后请另外运行整书构建并更新 `downloads/Lean-Rocq.epub`。

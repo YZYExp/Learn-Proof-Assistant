@@ -7,3 +7,5 @@ build/
 *.glob
 .lake/
 __pycache__/
+
+.venv/

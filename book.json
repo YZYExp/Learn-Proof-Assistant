@@ -75,5 +75,19 @@
       "source": "chapters/12-proof-engineering.md",
       "slug": "proof-engineering"
     }
+  ],
+  "appendices": [
+    {
+      "id": "appendix-a",
+      "title": "阅读路线与小项目",
+      "source": "appendices/a-reading-guide.md",
+      "slug": "reading-guide"
+    },
+    {
+      "id": "appendix-b",
+      "title": "术语与符号",
+      "source": "appendices/b-glossary.md",
+      "slug": "glossary"
+    }
   ]
 }
